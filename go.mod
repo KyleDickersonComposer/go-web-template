@@ -1,4 +1,4 @@
-module github.com/KyleDickersonComposer/foa
+module go-web-template
 
 go 1.24.3
 
