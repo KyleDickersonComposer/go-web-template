@@ -32,7 +32,6 @@ export default defineConfig([
 			"@typescript-eslint/prefer-nullish-coalescing": "off",
 			"@typescript-eslint/no-confusing-void-expression": "off",
 			"@typescript-eslint/restrict-template-expressions": "off",
-			"@typescript-eslint/explicit-function-return-type": "error",
 			"no-restricted-syntax": [
 				"error",
 				{
