@@ -40,6 +40,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/cli": "^4.1.11",
+		"@tailwindcss/typography": "^0.5.19",
 		"htmx.org": "^2.0.4",
 		"tailwindcss": "^4.1.11"
 	}
