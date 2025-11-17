@@ -7,6 +7,7 @@
 	"scripts": {
 		"dev": "concurrently \"npm:watch:css\" \"npm:watch:ts\" \"npm:watch:vite\" \"npm:watch:templ\"",
 		"build": "vite build",
+		"build:css": "tailwindcss -i ./css/input.css -o ./dist/output.css",
 		"watch:test": "npx vitest watch",
 		"watch:css": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
 		"watch:ts": "tsc --watch --noEmit",

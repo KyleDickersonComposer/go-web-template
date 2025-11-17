@@ -31,11 +31,17 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
 1. Run the development server:
 
+    Before starting the server for the first time, build the tailwind first to avoid a race condition.
+
     ```bash
-    # Run all watch tasks (CSS, TypeScript, Vite, and Templ with hot reload):
-    npm run dev
+    npm run build:css
     ```
 
+    Then, start the server with:
+
+    ```bash
+    npm run dev
+    ```
     This will:
 
     - Watch for CSS changes and rebuild Tailwind
