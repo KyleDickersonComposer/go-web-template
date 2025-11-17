@@ -17,7 +17,7 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
 -   Go 1.24+
 -   Node.js and npm
--   Templ CLI (`go install github.com/a-h/templ/cmd/templ@latest`)
+-   Templ CLI
 
 ### Development
 
@@ -25,7 +25,8 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
     ```bash
     npm install
-    go mod download
+    go install github.com/a-h/templ/cmd/templ@latest
+    go mod tidy
     ```
 
 1. Run the development server:
