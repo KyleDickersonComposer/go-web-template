@@ -41,6 +41,10 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
     ```bash
     npm run dev
+
+    # or 
+
+    make run
     ```
     This will:
 
@@ -51,7 +55,7 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
 1. Visit `http://localhost:7331` in your browser (the Templ proxy port for hot reload).
 
-    **Note:** The Templ proxy runs on port 7331 and forwards requests to your Go server on port 8080. The proxy injects hot reload scripts into your HTML, so you should connect to port 7331 during development, not port 8080 directly.
+    **Note:** The Templ proxy runs on port `:7331` and forwards requests to your Go server on port `:8080`. The proxy injects hot reload scripts into your HTML, so you should connect to port `:7331` during development, not port `:8080` directly.
 
 ## Project Structure
 
