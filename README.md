@@ -55,12 +55,14 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 - `css/input.css` - Tailwind CSS input file
 - `dist/` - Built assets (CSS, JS) - served by the Go server
 - `ts/` - TypeScript source files
+- `static/` - Public directory
 
 ## Notes
 
 - Organize your handlers/routes/templ/pages/components/views/models however you want.
 - The generated *.templ.go files aren't commited.
 - Should change the go module name at some point.
+- You can change the name of your public directory in `vite.config.ts`, default is `static`.
 
 ## Scripts
 
