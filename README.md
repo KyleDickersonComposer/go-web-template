@@ -61,7 +61,7 @@ A modern web application template using Go, Templ, and Tailwind CSS.
 
 - Organize your `handlers`/`routes`/`templ`/`pages`/`components`/`views`/`models` however you want.
 - The generated `*.templ.go` files aren't commited.
-- Should change the go module name at some point.
+- Change the `go.mod` module name to your desired name.
 - You can change the name of your public directory in `vite.config.ts`, default is `static`.
 
 ## Scripts
