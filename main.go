@@ -37,7 +37,6 @@ func counterHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	r := chi.NewRouter()
 
-	// Middleware
 	r.Use(middleware.Logger)
 	r.Use(middleware.Recoverer)
 
