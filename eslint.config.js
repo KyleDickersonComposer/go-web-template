@@ -13,7 +13,11 @@ export default defineConfig([
 		files: ["ts/*.{js,mjs,cjs,ts,mts,cts}"],
 		languageOptions: { globals: globals.browser },
 		rules: {
-			quotes: ["error", "double"],
+			quotes: [
+				"error",
+				"double",
+				{ avoidEscape: true, allowTemplateLiterals: true },
+			],
 			semi: ["error", "always"],
 			"no-unused-vars": "off",
 			"@typescript-eslint/no-unused-vars": [
